@@ -6,8 +6,8 @@ static int topbar = 1;
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Hack Nerd Font:size=13",
-    "JoyPixels:pixelsize=14:antialias=true:autohint=true"
+    "Noto Sans Mono:size=15",
+    "JoyPixels:pixelsize=15:antialias=true:autohint=true"
 };
 
 /* -p  option; prompt to the left of input field */
@@ -20,7 +20,8 @@ static const char *colors[SchemeLast][2] = {
 };
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines = 51;
+//static unsigned int lines = 51;
+static unsigned int lines = 0;
 
 /*
  * Characters not considered part of a word while deleting words
